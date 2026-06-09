@@ -3,7 +3,52 @@ guid: 0f0c356a852f11c4f87b3afbe34196b7
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beams_Baked
+    second: {fileID: 2100000, guid: 64d3426ff98899642bcffdebd77c28a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_Baked
+    second: {fileID: 2100000, guid: d8f3641d49500f54eb4a39e18dce2443, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: first_floor_Baked
+    second: {fileID: 2100000, guid: 9ff0d201ed093a942998d9834c0d9eaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: house_Baked.001
+    second: {fileID: 2100000, guid: a4aa6cb328d17cf4eb668d49d5d046eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pavement_Baked
+    second: {fileID: 2100000, guid: ad7dc2399e6b261448a45068b93fe344, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: planks_Baked
+    second: {fileID: 2100000, guid: 0ea1be665e32ea04f8f81a5fafc20891, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_Baked
+    second: {fileID: 2100000, guid: 9b266f5b874ded94a98f951696691a09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stones_Baked
+    second: {fileID: 2100000, guid: 95f32b8e7f7a55b45855456bc2ddc686, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_Baked
+    second: {fileID: 2100000, guid: 4024a5dc1bd5f4146a4e2d1bfc0fd528, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
