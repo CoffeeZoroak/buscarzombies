@@ -12,7 +12,7 @@ public class UIScripts : MonoBehaviour
     public void Pause()
     {
         UICanvas.SetActive(false);
-        camAnim.Play("camera2");
+        camAnim.Play("pause");
         gm.isPaused = true;
         PauseCanvas.SetActive(true);
     }
@@ -20,7 +20,7 @@ public class UIScripts : MonoBehaviour
     public void Unpause()
     {
         UICanvas.SetActive(true);
-        camAnim.Play("camera");
+        camAnim.Play("unpause");
         gm.isPaused = false;
         PauseCanvas.SetActive(false);
     }
