@@ -9,7 +9,10 @@ public class PlayerCollision : MonoBehaviour
 
     private void FixedUpdate()
     {
-        gm.SecurityLvl -= 0.01f;
+        if (!gm.busted)
+        {
+            gm.SecurityLvl -= 0.01f;
+        }
     }
     private void OnTriggerStay(Collider coll)
     {
