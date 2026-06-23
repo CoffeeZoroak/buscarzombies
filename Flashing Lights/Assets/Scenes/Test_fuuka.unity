@@ -408,6 +408,7 @@ GameObject:
   - component: {fileID: 300870935}
   - component: {fileID: 300870936}
   - component: {fileID: 300870937}
+  - component: {fileID: 300870938}
   m_Layer: 0
   m_Name: PlayerCollision
   m_TagString: Player
@@ -449,8 +450,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.6841346, y: 1.7863014, z: 0.5890094}
-  m_Center: {x: 0.019960716, y: 0.9096683, z: 0.058623075}
+  m_Size: {x: 0.8, y: 1.8, z: 0.8}
+  m_Center: {x: 0.025701582, y: 1.0073572, z: 0.062494725}
 --- !u!114 &300870937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,7 +465,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gm: {fileID: 816593379}
-  coll: {fileID: 300870936}
+--- !u!54 &300870938
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300870934}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &380958139
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,7 +688,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1.7906882, z: 1}
   m_Center: {x: 0, y: 0.8883478, z: 0}
@@ -892,6 +919,7 @@ MonoBehaviour:
   busted: 0
   SecurityLvl: 0
   hp: 100
+  collectibles: 0
 --- !u!4 &816593380
 Transform:
   m_ObjectHideFlags: 0
@@ -1993,7 +2021,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2158,7 +2186,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2134342785
 MonoBehaviour:
   m_ObjectHideFlags: 0

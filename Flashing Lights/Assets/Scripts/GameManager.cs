@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] public bool isPaused = false;
     [SerializeField] public bool busted = false;
     [SerializeField] public float SecurityLvl = 0;
-    [SerializeField] public float hp = 100;
+    [SerializeField] public float hp, collectibles;
     // Start is called before the first frame update
     void Start()
     {
