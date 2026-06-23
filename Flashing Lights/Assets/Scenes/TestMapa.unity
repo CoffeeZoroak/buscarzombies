@@ -198,7 +198,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aeb536922f3ad51418658ab58d1d97b7,
         type: 3}
       propertyPath: m_Name
-      value: Fallout Light Head
+      value: Proyector beta 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -244,11 +244,6 @@ Transform:
   - {fileID: 1592171345}
   - {fileID: 398886795}
   - {fileID: 448354162}
-  - {fileID: 1909458317}
-  - {fileID: 1393774406}
-  - {fileID: 1606048030}
-  - {fileID: 2066880026}
-  - {fileID: 1299046811}
   - {fileID: 539332616}
   - {fileID: 1154227215}
   - {fileID: 881872682}
@@ -408,7 +403,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 70b65f589962fec4a85f75feaee769cd,
         type: 3}
       propertyPath: m_Name
-      value: Newspaper (1)
+      value: Periodico 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -432,7 +427,7 @@ GameObject:
   - component: {fileID: 155303604}
   - component: {fileID: 155303605}
   m_Layer: 0
-  m_Name: Point Light (10)
+  m_Name: luz dron 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -923,7 +918,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aeb536922f3ad51418658ab58d1d97b7,
         type: 3}
       propertyPath: m_Name
-      value: Fallout Light Head (1)
+      value: Proyector beta 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1019,7 +1014,7 @@ GameObject:
   - component: {fileID: 309388432}
   - component: {fileID: 309388433}
   m_Layer: 0
-  m_Name: Point Light (9)
+  m_Name: luz proyector 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1178,7 +1173,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
       propertyPath: m_Name
-      value: lamp(lighton)
+      value: poste de luz 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
@@ -1211,7 +1206,7 @@ GameObject:
   - component: {fileID: 356690884}
   - component: {fileID: 356690885}
   m_Layer: 0
-  m_Name: Point Light (11)
+  m_Name: luz proyector 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1375,7 +1370,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4e4111eb8b1e49e4ab423c0bf29c6666,
         type: 3}
       propertyPath: m_Name
-      value: stop sign
+      value: "Se\xF1al de alto"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1469,7 +1464,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b21db1036969e9a4aab1812447cda72a,
         type: 3}
       propertyPath: m_Name
-      value: planks (2)
+      value: tabla de madera 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1739,7 +1734,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b21db1036969e9a4aab1812447cda72a,
         type: 3}
       propertyPath: m_Name
-      value: planks (3)
+      value: tabla de madera 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2010,7 +2005,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0d55c799dd404c64ea96e237e42950d6,
         type: 3}
       propertyPath: m_Name
-      value: SM_PrisonerBed
+      value: Mesa
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2379,7 +2374,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d2ec70395c24b844fbbf5d3e593a5eb2,
         type: 3}
       propertyPath: m_Name
-      value: Little_Post_FBX
+      value: Letrero
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2612,7 +2607,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
       propertyPath: m_Name
-      value: lamp(lighton) (2)
+      value: poste de luz 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
@@ -2710,7 +2705,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
       propertyPath: m_Name
-      value: lamp(lighton) (3)
+      value: poste de luz 4
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
@@ -2800,8 +2795,8 @@ Transform:
   - {fileID: 291290635}
   - {fileID: 1337592494}
   - {fileID: 1842030605}
-  - {fileID: 309388432}
   - {fileID: 356690884}
+  - {fileID: 309388432}
   - {fileID: 155303604}
   - {fileID: 588809136}
   - {fileID: 947876972}
@@ -2955,7 +2950,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5beaefc5ff4511f49b30bd2b7c52396b,
         type: 3}
       propertyPath: m_Name
-      value: AbandonedHouse
+      value: Zona Segura
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3049,7 +3044,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b21db1036969e9a4aab1812447cda72a,
         type: 3}
       propertyPath: m_Name
-      value: planks
+      value: tabla de madera 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3112,7 +3107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 872743748}
   m_Layer: 0
-  m_Name: Zona segura
+  m_Name: Edificios
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3132,6 +3127,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 766323148}
+  - {fileID: 2066880026}
+  - {fileID: 1299046811}
+  - {fileID: 1909458317}
+  - {fileID: 1393774406}
+  - {fileID: 1606048030}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &877976413
@@ -3282,7 +3282,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 681a2f567fe5f5e4993f71c2ab914aca,
         type: 3}
       propertyPath: m_Name
-      value: Dumpster
+      value: Basurero
       objectReference: {fileID: 0}
     - target: {fileID: 4579347148642469677, guid: 681a2f567fe5f5e4993f71c2ab914aca,
         type: 3}
@@ -3381,7 +3381,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
       propertyPath: m_Name
-      value: lamp(lighton) (6)
+      value: poste de luz 7
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
@@ -3526,7 +3526,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6c484f9879a6cf74697f7603b5808bdf,
         type: 3}
       propertyPath: m_Name
-      value: TreeTrunk
+      value: Tronco 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3615,7 +3615,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6c484f9879a6cf74697f7603b5808bdf,
         type: 3}
       propertyPath: m_Name
-      value: TreeTrunk (3)
+      value: Tronco 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3704,7 +3704,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6c484f9879a6cf74697f7603b5808bdf,
         type: 3}
       propertyPath: m_Name
-      value: TreeTrunk (1)
+      value: Tronco 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3793,7 +3793,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
       propertyPath: m_Name
-      value: lamp(lighton) (5)
+      value: poste de luz 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
@@ -4072,7 +4072,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9ec67f615b67e404fac58b7df528403e,
         type: 3}
       propertyPath: m_Name
-      value: FireHydrant
+      value: HIdrante
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4156,7 +4156,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2e015dd8ccde1854f98a2fe2f5ffb158,
         type: 3}
       propertyPath: m_Name
-      value: CamperVan
+      value: Camioneta
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4399,13 +4399,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1197989721}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.54, z: -6.44}
+  m_LocalRotation: {x: -0, y: -0.7155172, z: -0, w: 0.6985951}
+  m_LocalPosition: {x: 0.91, y: 0.54, z: -6.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -91.371, z: 0}
 --- !u!95 &1197989725
 Animator:
   serializedVersion: 5
@@ -4525,7 +4525,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202355363}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -866}
+  m_LocalPosition: {x: 0, y: 0, z: -745.47}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4533,7 +4533,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 163.19, y: -0.46}
+  m_AnchoredPosition: {x: 34.99, y: 3.2}
   m_SizeDelta: {x: 58.47, y: 19.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1202355365
@@ -4558,8 +4558,8 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 9
-    m_FontStyle: 1
+    m_FontSize: 8
+    m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
@@ -4654,7 +4654,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 30d30059db0088d4aa517cc4a0a59281,
         type: 3}
       propertyPath: m_Name
-      value: Crate (1)
+      value: Caja 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4745,7 +4745,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 11325637}
+    m_TransformParent: {fileID: 872743748}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: eceebd790c46dc648a5eeeee8b540c1b,
         type: 3}
@@ -4765,17 +4765,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: eceebd790c46dc648a5eeeee8b540c1b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 104.23268
+      value: 54.426437
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eceebd790c46dc648a5eeeee8b540c1b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.734486
+      value: -30.077734
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eceebd790c46dc648a5eeeee8b540c1b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -49.954178
+      value: -37.123543
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eceebd790c46dc648a5eeeee8b540c1b,
         type: 3}
@@ -4815,7 +4815,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: eceebd790c46dc648a5eeeee8b540c1b,
         type: 3}
       propertyPath: m_Name
-      value: Building 1 (1)
+      value: Edificio 1 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4854,10 +4854,10 @@ Light:
   m_GameObject: {fileID: 1309804014}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 3
+  m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4915,13 +4915,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1309804014}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.4094874, y: -0.22416206, z: 0.10452858, w: 0.8781488}
   m_LocalPosition: {x: 14.49, y: 0.52, z: 4.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -28.64, z: 0}
 --- !u!1001 &1324392886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4993,7 +4993,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 70b65f589962fec4a85f75feaee769cd,
         type: 3}
       propertyPath: m_Name
-      value: Newspaper (2)
+      value: Periodico 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5082,7 +5082,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e479951745d759148aa6294b87227020,
         type: 3}
       propertyPath: m_Name
-      value: dron
+      value: dron beta 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5265,7 +5265,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 30d30059db0088d4aa517cc4a0a59281,
         type: 3}
       propertyPath: m_Name
-      value: Crate
+      value: Caja 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5284,22 +5284,22 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 11325637}
+    m_TransformParent: {fileID: 872743748}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ac3bf60d85d4dce48a3c993395a199b4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.3273125
+      value: -51.13356
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ac3bf60d85d4dce48a3c993395a199b4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.245515
+      value: -4.097733
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ac3bf60d85d4dce48a3c993395a199b4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.3741763
+      value: 11.456455
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ac3bf60d85d4dce48a3c993395a199b4,
         type: 3}
@@ -5339,7 +5339,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ac3bf60d85d4dce48a3c993395a199b4,
         type: 3}
       propertyPath: m_Name
-      value: oldWare (1)
+      value: Edificio 2 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5616,7 +5616,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
       propertyPath: m_Name
-      value: lamp(lighton) (7)
+      value: poste de luz 8
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
@@ -5719,7 +5719,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b21db1036969e9a4aab1812447cda72a,
         type: 3}
       propertyPath: m_Name
-      value: planks (1)
+      value: tabla de madera 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5832,22 +5832,22 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 11325637}
+    m_TransformParent: {fileID: 872743748}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ac3bf60d85d4dce48a3c993395a199b4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 80.282684
+      value: 30.476439
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ac3bf60d85d4dce48a3c993395a199b4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.245515
+      value: -4.097733
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ac3bf60d85d4dce48a3c993395a199b4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -48.644176
+      value: -35.813545
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ac3bf60d85d4dce48a3c993395a199b4,
         type: 3}
@@ -5887,7 +5887,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ac3bf60d85d4dce48a3c993395a199b4,
         type: 3}
       propertyPath: m_Name
-      value: oldWare (2)
+      value: Edificio 2 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6048,7 +6048,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
       propertyPath: m_Name
-      value: lamp(lighton) (1)
+      value: poste de luz 2
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
@@ -6213,7 +6213,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 70b65f589962fec4a85f75feaee769cd,
         type: 3}
       propertyPath: m_Name
-      value: Newspaper
+      value: Periodico 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6686,7 +6686,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e479951745d759148aa6294b87227020,
         type: 3}
       propertyPath: m_Name
-      value: dron (1)
+      value: dron beta 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6775,7 +6775,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
       propertyPath: m_Name
-      value: lamp(lighton) (4)
+      value: poste de luz 5
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
@@ -6803,22 +6803,22 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 11325637}
+    m_TransformParent: {fileID: 872743748}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ac3bf60d85d4dce48a3c993395a199b4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.3273125
+      value: -51.13356
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ac3bf60d85d4dce48a3c993395a199b4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.245515
+      value: -4.097733
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ac3bf60d85d4dce48a3c993395a199b4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.804176
+      value: 1.0264559
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ac3bf60d85d4dce48a3c993395a199b4,
         type: 3}
@@ -6858,7 +6858,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ac3bf60d85d4dce48a3c993395a199b4,
         type: 3}
       propertyPath: m_Name
-      value: oldWare
+      value: Edificio 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7041,7 +7041,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6c484f9879a6cf74697f7603b5808bdf,
         type: 3}
       propertyPath: m_Name
-      value: TreeTrunk (2)
+      value: Tronco 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7164,7 +7164,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 11325637}
+    m_TransformParent: {fileID: 872743748}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: eceebd790c46dc648a5eeeee8b540c1b,
         type: 3}
@@ -7184,17 +7184,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: eceebd790c46dc648a5eeeee8b540c1b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 140.1527
+      value: 90.34645
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eceebd790c46dc648a5eeeee8b540c1b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.734486
+      value: -30.077734
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eceebd790c46dc648a5eeeee8b540c1b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -49.954178
+      value: -37.123543
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eceebd790c46dc648a5eeeee8b540c1b,
         type: 3}
@@ -7231,10 +7231,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -384251247427882252, guid: eceebd790c46dc648a5eeeee8b540c1b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: eceebd790c46dc648a5eeeee8b540c1b,
         type: 3}
       propertyPath: m_Name
-      value: Building 1
+      value: Edificio 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373755574485294491, guid: eceebd790c46dc648a5eeeee8b540c1b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7549,7 +7559,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
       propertyPath: m_Name
-      value: lamp(lighton) (8)
+      value: poste de luz 9
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 50a52281597b8fa4489cf7bb24762489,
         type: 3}
