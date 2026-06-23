@@ -18,8 +18,10 @@ public class Enemies : MonoBehaviour
     void Update()
     {
         distance = Vector3.Distance(transform.position, player.transform.position);
-        Debug.DrawLine(transform.position, transform.forward, Color.red);
-        transform.position = Vector3.MoveTowards(transform.position, cur_target.position, speed);
+        if (!gm.isPaused)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, cur_target.position, speed);
+        }
         
     }
     void Patrol()

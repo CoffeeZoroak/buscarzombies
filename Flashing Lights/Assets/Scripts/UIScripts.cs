@@ -11,10 +11,13 @@ public class UIScripts : MonoBehaviour
 
     public void Pause()
     {
-        UICanvas.SetActive(false);
-        camAnim.Play("pause");
-        gm.isPaused = true;
-        PauseCanvas.SetActive(true);
+        if (!gm.busted)
+        {
+            UICanvas.SetActive(false);
+            camAnim.Play("pause");
+            gm.isPaused = true;
+            PauseCanvas.SetActive(true);
+        }
     }
 
     public void Unpause()
