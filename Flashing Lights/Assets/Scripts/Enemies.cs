@@ -5,7 +5,6 @@ using UnityEngine.UIElements;
 
 public class Enemies : MonoBehaviour
 {
-    [SerializeField] private List<Transform> targets;
     [SerializeField] private Transform cur_target, player;
     [SerializeField] private float speed, patrolrate, range, distance;
     [SerializeField] private GameManager gm;
@@ -33,7 +32,7 @@ public class Enemies : MonoBehaviour
         }
         else
         {
-            cur_target = targets[Random.Range(0, targets.Count)];
+            cur_target = gm.spawn[Random.Range(0, gm.spawn.Count)];
             gm.busted = false;
         }
     }
