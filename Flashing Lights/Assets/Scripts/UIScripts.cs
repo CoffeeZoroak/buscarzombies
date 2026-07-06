@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIScripts : MonoBehaviour
 {
@@ -26,5 +27,12 @@ public class UIScripts : MonoBehaviour
         camAnim.Play("unpause");
         gm.isPaused = false;
         PauseCanvas.SetActive(false);
+    }
+
+    public void Restart()
+    {
+        Scene scene = SceneManager.GetActiveScene();
+        gm.ded = false;
+        SceneManager.LoadScene(scene.name);
     }
 }

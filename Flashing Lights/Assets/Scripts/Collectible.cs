@@ -7,10 +7,14 @@ public class Collectible : MonoBehaviour
 {
     [SerializeField] private int point;
     [SerializeField] private GameManager gm;
+    [SerializeField] private int type;
 
-    private void Start()
+    private void Update()
     {
-        //transform.position = gm.spawn[Random.Range(0, gm.spawn.Count)].position;
+        if (type == gm.round)
+        {
+            gameObject.SetActive(true);
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {
