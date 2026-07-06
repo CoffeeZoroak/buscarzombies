@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     [SerializeField] private GameManager gm;
-    [SerializeField] private Collider coll;
 
     private void FixedUpdate()
     {
@@ -19,6 +18,13 @@ public class PlayerCollision : MonoBehaviour
         if (coll.gameObject.CompareTag("Light"))
         {
             gm.SecurityLvl += 0.1f;
+        }
+    }
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            gm.hp -= 0.5f;
         }
     }
 }
