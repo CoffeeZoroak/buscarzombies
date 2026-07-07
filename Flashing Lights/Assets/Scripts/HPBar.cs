@@ -12,7 +12,7 @@ public class HPBar : MonoBehaviour
 
     void Start()
     {
-        slider.maxValue = 100;
+        slider.maxValue = gm.maxhp;
         slider.value = gm.hp;
     }
     void Update()

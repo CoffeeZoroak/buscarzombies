@@ -6,9 +6,10 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] public bool isPaused = false;
+    [SerializeField] public bool shopping = false;
     [SerializeField] public bool busted = false;
     [SerializeField] public bool ded = false;
-    [SerializeField] public float SecurityLvl, hp, collectibles, goal;
+    [SerializeField] public float SecurityLvl, maxhp, hp, collectibles, goal;
     [SerializeField] public int round;
     [SerializeField] public TextMeshProUGUI TextCounter;
     [SerializeField] public GameObject prefab, dedCanvas;
@@ -17,6 +18,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         dedCanvas.SetActive(false);
+        maxhp = 100;
         hp = 100;
         SecurityLvl = 0;
         Obstucalo();
@@ -32,6 +34,7 @@ public class GameManager : MonoBehaviour
         }
         TextCounter.text = collectibles.ToString() + "/" + goal.ToString();
         SecurityLvl = Mathf.Clamp(SecurityLvl,0, 100);
+        hp = Mathf.Clamp(hp, 0, maxhp);
         if (collectibles == goal)
         {
             Obstucalo();
@@ -40,12 +43,10 @@ public class GameManager : MonoBehaviour
     
     void Obstucalo()
     {
+        
         collectibles = 0;
         goal = 0;
         round++;
-        for (int i = 0; i < round; i++)
-        {
-            goal++;
-        }
+        goal = round;
     }
 }
