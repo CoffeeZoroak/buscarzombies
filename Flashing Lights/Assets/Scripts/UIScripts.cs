@@ -35,4 +35,17 @@ public class UIScripts : MonoBehaviour
         gm.ded = false;
         SceneManager.LoadScene(scene.name);
     }
+
+    public void HPBoost()
+    {
+        gm.maxhp += 10;
+        gm.hp += 10;
+        gm.powerup.SetActive(false);
+    }
+
+    public void Speed()
+    {
+        gm.speed += 2;
+        gm.powerup.SetActive(false);
+    }
 }

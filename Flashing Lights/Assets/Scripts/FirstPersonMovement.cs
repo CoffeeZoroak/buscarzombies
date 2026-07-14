@@ -43,6 +43,7 @@ public class FirstPersonController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        moveSpeed = gm.speed;
         // Handles input
         GetTouchInput();
 
