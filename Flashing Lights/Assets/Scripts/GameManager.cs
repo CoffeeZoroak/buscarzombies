@@ -32,16 +32,20 @@ public class GameManager : MonoBehaviour
             ded = true;
             dedCanvas.SetActive(true);
         }
-        TextCounter.text = collectibles.ToString() + "/" + goal.ToString();
-        SecurityLvl = Mathf.Clamp(SecurityLvl,0, 100);
-        if (collectibles == goal)
+        else
         {
-            Obstucalo();
+            TextCounter.text = collectibles.ToString() + "/" + goal.ToString();
+            SecurityLvl = Mathf.Clamp(SecurityLvl,0, 100);
+            if (collectibles >= goal)
+            {
+                Obstucalo();
+            }
         }
     }
     
     void Obstucalo()
     {
+        isPaused = true;
         powerup.SetActive(true);
         collectibles = 0;
         goal = 0;

@@ -38,6 +38,7 @@ public class UIScripts : MonoBehaviour
 
     public void HPBoost()
     {
+        gm.isPaused = false;
         gm.maxhp += 10;
         gm.hp += 10;
         gm.powerup.SetActive(false);
@@ -45,6 +46,7 @@ public class UIScripts : MonoBehaviour
 
     public void Speed()
     {
+        gm.isPaused = false;
         gm.speed += 2;
         gm.powerup.SetActive(false);
     }
