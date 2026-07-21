@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ded = false;
         dedCanvas.SetActive(false);
         maxhp = 100;
         hp = 100;

@@ -31,9 +31,7 @@ public class UIScripts : MonoBehaviour
 
     public void Restart()
     {
-        Scene scene = SceneManager.GetActiveScene();
-        gm.ded = false;
-        SceneManager.LoadScene(scene.name);
+        SceneManager.LoadScene(1);
     }
 
     public void HPBoost()
@@ -49,5 +47,11 @@ public class UIScripts : MonoBehaviour
         gm.isPaused = false;
         gm.speed += 2;
         gm.powerup.SetActive(false);
+    }
+
+    public void Exit()
+    {
+        Debug.Log("Exit");
+        Application.Quit();
     }
 }
