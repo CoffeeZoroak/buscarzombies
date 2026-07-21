@@ -34,6 +34,11 @@ public class UIScripts : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+        public void Menu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     public void HPBoost()
     {
         gm.isPaused = false;
