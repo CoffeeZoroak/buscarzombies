@@ -8,16 +8,19 @@ public class GameManager : MonoBehaviour
     [SerializeField] public bool isPaused = false;
     [SerializeField] public bool busted = false;
     [SerializeField] public bool ded = false;
-    [SerializeField] public float SecurityLvl, hp, collectibles, goal;
+    [SerializeField] public float SecurityLvl, hp, maxhp, speed, collectibles, goal;
     [SerializeField] public int round;
     [SerializeField] public TextMeshProUGUI TextCounter;
-    [SerializeField] public GameObject prefab, dedCanvas;
+    [SerializeField] public GameObject prefab, dedCanvas, powerup, wincanvas;
     [SerializeField] public List<Transform> spawn;
     // Start is called before the first frame update
     void Start()
     {
+        ded = false;
         dedCanvas.SetActive(false);
+        maxhp = 100;
         hp = 100;
+        speed = 5;
         SecurityLvl = 0;
         Obstucalo();
     }
@@ -30,16 +33,29 @@ public class GameManager : MonoBehaviour
             ded = true;
             dedCanvas.SetActive(true);
         }
-        TextCounter.text = collectibles.ToString() + "/" + goal.ToString();
-        SecurityLvl = Mathf.Clamp(SecurityLvl,0, 100);
-        if (collectibles == goal)
+        else
         {
-            Obstucalo();
+            TextCounter.text = collectibles.ToString() + "/" + goal.ToString();
+            SecurityLvl = Mathf.Clamp(SecurityLvl,0, 100);
+            if (collectibles >= goal)
+            {
+                if (round > 3)
+                {
+                    wincanvas.SetActive(true);
+                }
+                else
+                {
+                    Obstucalo();
+                }
+                
+            }
         }
     }
     
     void Obstucalo()
     {
+        isPaused = true;
+        powerup.SetActive(true);
         collectibles = 0;
         goal = 0;
         round++;

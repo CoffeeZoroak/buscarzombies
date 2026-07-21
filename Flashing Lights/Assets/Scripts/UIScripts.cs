@@ -31,8 +31,32 @@ public class UIScripts : MonoBehaviour
 
     public void Restart()
     {
-        Scene scene = SceneManager.GetActiveScene();
-        gm.ded = false;
-        SceneManager.LoadScene(scene.name);
+        SceneManager.LoadScene(1);
+    }
+
+        public void Menu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void HPBoost()
+    {
+        gm.isPaused = false;
+        gm.maxhp += 10;
+        gm.hp += 10;
+        gm.powerup.SetActive(false);
+    }
+
+    public void Speed()
+    {
+        gm.isPaused = false;
+        gm.speed += 2;
+        gm.powerup.SetActive(false);
+    }
+
+    public void Exit()
+    {
+        Debug.Log("Exit");
+        Application.Quit();
     }
 }

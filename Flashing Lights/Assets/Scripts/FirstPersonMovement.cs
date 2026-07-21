@@ -19,8 +19,8 @@ public class FirstPersonController : MonoBehaviour
     private float halfScreenWidth;
 
     // Camera control
-    private Vector2 lookInput;
-    private float cameraPitch;
+    [SerializeField] private Vector2 lookInput;
+    [SerializeField] private float cameraPitch;
 
     // Player movement
     private Vector2 moveTouchStartPosition;
@@ -43,18 +43,19 @@ public class FirstPersonController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        moveSpeed = gm.speed;
         // Handles input
         GetTouchInput();
 
 
-        if (!gm.isPaused && rightFingerId != -1)
+        if (!gm.isPaused && !gm.ded && rightFingerId != -1)
         {
             // Ony look around if the right finger is being tracked
             Debug.Log("Rotating");
             LookAround();
         }
 
-        if (!gm.isPaused && leftFingerId != -1)
+        if (!gm.isPaused && !gm.ded && leftFingerId != -1)
         {
             // Ony move if the left finger is being tracked
             Debug.Log("Moving");

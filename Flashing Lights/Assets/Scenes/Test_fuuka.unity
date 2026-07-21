@@ -290,7 +290,7 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   fill: {fileID: 241545159}
-  gm: {fileID: 0}
+  gm: {fileID: 1936762047}
 --- !u!1 &241545157
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,7 +464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6a650f21546157488588b5e40433559, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gm: {fileID: 0}
+  gm: {fileID: 1936762047}
 --- !u!54 &300870938
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -524,7 +524,7 @@ MonoBehaviour:
   camAnim: {fileID: 1432323838}
   UICanvas: {fileID: 1376267922}
   PauseCanvas: {fileID: 1292542582}
-  gm: {fileID: 0}
+  gm: {fileID: 1936762047}
 --- !u!4 &380958141
 Transform:
   m_ObjectHideFlags: 0
@@ -801,7 +801,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.7404682, y: 1.7179315, z: 0.7041197}
   m_Center: {x: -0.031053215, y: 0.8411716, z: 0.030284226}
@@ -823,7 +823,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &411719589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1315,7 +1315,7 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   fill: {fileID: 1368401183}
-  gm: {fileID: 0}
+  gm: {fileID: 1936762047}
 --- !u!114 &1004782204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2172,13 +2172,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 380958139}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 380958140}
+        m_TargetAssemblyTypeName: UIScripts, Assembly-CSharp
+        m_MethodName: Restart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2241,7 +2241,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1626723251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2255,7 +2255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cur_target: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 390462295}
   speed: 0.01
   patrolrate: 2
   range: 5
@@ -2276,7 +2276,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
