@@ -8,6 +8,8 @@ public class Enemies : MonoBehaviour
     [SerializeField] private Transform cur_target, player;
     [SerializeField] private float speed, patrolrate, range, distance;
     [SerializeField] private GameManager gm;
+    [SerializeField] private Rigidbody rb;
+    [SerializeField] private Animator anim;
 
     // Update is called once per frame
     void Start()
@@ -19,9 +21,18 @@ public class Enemies : MonoBehaviour
         distance = Vector3.Distance(transform.position, player.transform.position);
         if (!gm.isPaused)
         {
-            transform.position = Vector3.MoveTowards(transform.position, cur_target.position, speed);
+            Vector3 newPosition = Vector3.MoveTowards(transform.position, cur_target.position, speed * Time.deltaTime);
+            rb.MovePosition(newPosition);
+            transform.LookAt(cur_target);
         }
-        
+        if (rb.velocity.sqrMagnitude > 0)
+        {
+            anim.Play("Walking");
+        }
+        else
+        {
+            anim.Play("Mutant Idle");
+        }
     }
     void Patrol()
     {

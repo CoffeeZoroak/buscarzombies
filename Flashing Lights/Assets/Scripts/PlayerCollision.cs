@@ -19,6 +19,10 @@ public class PlayerCollision : MonoBehaviour
         {
             gm.SecurityLvl += 0.1f;
         }
+        if (coll.gameObject.CompareTag("Enemy"))
+        {
+            gm.hp -= 0.5f;
+        }
     }
     private void OnCollisionStay(Collision collision)
     {
